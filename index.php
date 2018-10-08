@@ -13,7 +13,7 @@
         <div id="site-title"><?php echo '<h1>CMR Concepts</h1>'; ?></div>
         <nav>
             <ul>
-                
+
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Designs</a></li>
                 <li><a href="#">Contact</a></li>
@@ -24,14 +24,16 @@
     </header>
     <div class="scroller">I am legend</div>
     <main class="container">
-       
+
         <section id="showcase"><h1>hi</h1></section>
         <section id="content row"></section>
         <section id="suport-info"></section>
         <section id="right"></section>
     </main>
     <footer>
-    
+     &apm; 
+
+     </div>
     </footer>
 </body>
 </html>
