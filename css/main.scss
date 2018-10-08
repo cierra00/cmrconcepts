@@ -1,0 +1,80 @@
+/*
+Theme Name: acme
+Theme URI: https://cmrconcepts.com/wp/themes/Acme.php
+Author: Cierra Ray
+Author URI: https://cmrconcepts.com/
+Description: I will add this later
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: acme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+$colors: (
+    headerColor : #123455,
+    header-text : #FFF,
+    footerColor: rgb(64, 91, 165)
+);
+html {
+        body {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+}
+header {
+        max-width: 100%;
+        margin: auto;
+        padding: 20px;
+        background-color:map-get($colors, headerColor );
+        color: map-get($colors, header-text );
+        
+
+        .site-title {
+            font-family: 'Merriweather', serif;
+                    }
+        nav {
+            margin-left: 250px;
+            ul {
+                
+                    li {
+                        display: inline-flex;
+                        padding-left: 50px;
+                       a {  text-decoration: none;
+                          color: #FFF;
+                          font-weight: bold;
+                          text-transform: uppercase;
+                         }
+                       }
+                }
+        }
+
+    
+    
+}
+.scroller{
+        background-color: blueviolet;
+        max-width: 100%;
+        margin: 0; 
+        padding: 0;
+        
+    }
+
+main {
+    margin: 0;
+    padding: 0;
+    
+    #showcase {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10%;
+        background-color: #dddddd;
+}
+}
+footer {
+   background-color:map-get($colors, footerColor ); 
+}
